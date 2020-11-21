@@ -1,0 +1,26 @@
+PSRUTI SysEx-Protocol
+File:  C:\Users\Heiko\Desktop\test1.mid
+
+[start sysexlist]
+
+F0 7E 7F 09 01 F7 		; Turn General Midi System On
+F0 43 10 4C 00 00 7E 00 F7 	; (XG) XG System On  
+F0 43 73 01 50 12 00 02 7F F7 	; Clavinova Lyrics Part Score ON
+F0 43 73 01 50 12 00 03 7F F7 	; Clavinova Chord Part Score ON
+F0 43 73 01 50 08 01 00 7F F7 	; Clavinova Part Right2 ON 
+F0 43 73 01 50 08 03 02 00 F7 	; Clavinova Left Hold OFF 
+F0 43 73 01 50 08 02 03 42 F7 	; Clavinova Octave Right3 2 
+F0 43 73 01 50 08 03 04 40 F7 	; Clavinova Voice Set Volume Left: 64
+F0 43 73 01 50 08 00 08 7F F7 	; Clavinova DSP Right1 ON 
+F0 43 73 01 50 08 01 01 00 F7 	; Clavinova DSP Variation Right2 OFF 
+F0 43 73 01 50 04 00 00 7F F7 	; Clavinova Harmony Echo ON
+F0 43 73 01 50 04 00 00 02 02 00 F7 	; Clavinova Harmony Echo Type: cc 2, dd 0
+F0 43 73 01 50 04 00 05 40 F7 	; Clavinova Harmony Echo Volume: 64
+F0 43 73 01 50 04 00 02 01 F7 	; Clavinova Harmony Echo Assign Right2
+F0 43 73 01 50 04 00 03 00 F7 	; Clavinova Chord Note Only: OFF
+F0 43 73 01 50 04 00 04 40 F7 	; Clavinova Touch Limit: 64
+F0 43 73 01 50 07 00 00 40 F7 	; Clavinova Multi-Pad Volume: 64
+F0 43 73 01 50 07 00 00 02 05 06 F7 	; Clavinova Multi-Pad Number: cc 5, dd 6
+F0 43 73 01 50 12 00 00 7F F7 	; Clavinova Left Part ON
+
+[end list]

@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: psruti - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/psruti.res" /d "_DEBUG" /d "_AFXDLL" "Z:\PSRUTI_8-21\psruti.rc"" 
+Creating temporary file "C:\DOKUME~1\Heiko\LOKALE~1\Temp\RSPCB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /I "D" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fr"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\PSRUTI_8-21\ChordsLyricsEditor.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\Heiko\LOKALE~1\Temp\RSPCB.tmp" 
+Creating temporary file "C:\DOKUME~1\Heiko\LOKALE~1\Temp\RSPCC.tmp" with contents
+[
+HP_midifile.lib /nologo /subsystem:windows /profile /debug /machine:I386 /out:"Debug/psruti.exe" 
+".\Debug\BrowseDlg.obj"
+".\Debug\ChangeDrumVoicesDlg.obj"
+".\Debug\ChangeKeyDlg.obj"
+".\Debug\Chd.obj"
+".\Debug\ChordsLyricsEditor.obj"
+".\Debug\ChordsLyricsImportExport.obj"
+".\Debug\ComputeBanknumberMsbLsb.obj"
+".\Debug\Controller_Dlg.obj"
+".\Debug\ControllerEffectsDlg.obj"
+".\Debug\CopyrightDlg.obj"
+".\Debug\Delete_Fill_Lyrics_Dlg.obj"
+".\Debug\delete_keyboard_events.obj"
+".\Debug\Delete_MIDI_Events.obj"
+".\Debug\Delete_short_notes.obj"
+".\Debug\Drums.obj"
+".\Debug\DrumsDlg.obj"
+".\Debug\DrumVoicesTemplateDlg.obj"
+".\Debug\EffectFilterDlg.obj"
+".\Debug\ExchangeChannelsDlg.obj"
+".\Debug\Expr_MainVolume.obj"
+".\Debug\Extras_Dlg.obj"
+".\Debug\FileAttributesDlg.obj"
+".\Debug\FillLyricMethodDlg.obj"
+".\Debug\FillLyricsLinefeedDlg.obj"
+".\Debug\GlobalUtilities.obj"
+".\Debug\HPMF_Interface.obj"
+".\Debug\HPMF_Interface2.obj"
+".\Debug\ImportLyricsAtChannelNotes.obj"
+".\Debug\IniFile.obj"
+".\Debug\InsdefDlg.obj"
+".\Debug\InsDefOnOffDlg.obj"
+".\Debug\InsertChordLyrics.obj"
+".\Debug\Lengthen_Notes.obj"
+".\Debug\lickChanDlg.obj"
+".\Debug\Log.obj"
+".\Debug\LyricChordEditDlg.obj"
+".\Debug\LyricChordEditElement.obj"
+".\Debug\LyricFrame.obj"
+".\Debug\MainVolume_Expression_Folder_Dlg.obj"
+".\Debug\Master_Volume_Folder_Dlg.obj"
+".\Debug\MasterVolume.obj"
+".\Debug\MyArrays.obj"
+".\Debug\Play.obj"
+".\Debug\PreferencesDlg.obj"
+".\Debug\Print.obj"
+".\Debug\psruti.obj"
+".\Debug\psrutidlg.obj"
+".\Debug\QuantisizeChords.obj"
+".\Debug\QuantisizeLyricsDlg.obj"
+".\Debug\QuantizeDlg.obj"
+".\Debug\Quickstart.obj"
+".\Debug\RevoicingDlg.obj"
+".\Debug\RevoicingMethodDlg.obj"
+".\Debug\SaveChangesDlg.obj"
+".\Debug\Score.obj"
+".\Debug\ScoreChanDlg.obj"
+".\Debug\ScoreLayout.obj"
+".\Debug\ScoreNotesOptDlg.obj"
+".\Debug\Select_Language.obj"
+".\Debug\SelectFillLyrics.obj"
+".\Debug\SelectMIDIDevice.obj"
+".\Debug\SlctChordChan.obj"
+".\Debug\Songname.obj"
+".\Debug\SpecialPreferences.obj"
+".\Debug\StartBeat.obj"
+".\Debug\StartBeatFolderDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\sysex_event_data.obj"
+".\Debug\sysex_event_prot.obj"
+".\Debug\SysexDlg.obj"
+".\Debug\SysexPasteDlg.obj"
+".\Debug\Tempo_Dlg.obj"
+".\Debug\Time_Signature.obj"
+".\Debug\Transpose_no.obj"
+".\Debug\VelCompress.obj"
+".\Debug\VhActDeactDlg.obj"
+".\Debug\VHChanDlg.obj"
+".\Debug\VoiceFileBrowseDlg.obj"
+".\Debug\VoiceFileElement.obj"
+".\Debug\VoicefileRevoicingDlg.obj"
+".\Debug\VolumeMethodDlg.obj"
+".\Debug\XBrowseForFolder.obj"
+".\Debug\XG_effectdef_on_of_dlg.obj"
+".\Debug\XG_effectdefdlg.obj"
+".\Debug\XgEffects.obj"
+".\Debug\psruti.res"
+]
+Creating command line "link.exe @C:\DOKUME~1\Heiko\LOKALE~1\Temp\RSPCC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ChordsLyricsEditor.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+psruti.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

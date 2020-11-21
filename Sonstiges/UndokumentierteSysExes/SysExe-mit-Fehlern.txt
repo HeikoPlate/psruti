@@ -1,0 +1,16 @@
+[start sysexlist]
+F0 43 73 01 50 08 01 00 7F F7 ; Part On/Off Right2 On
+F0 43 73 01 50 08 03 02 00 F7 ; Left Hold OFF
+F0 43 73 01 50 08 02 03 42 F7 ; Octave Right3 2
+F0 43 73 01 50 08 03 04 40 F7 ; Voice Set Volume Left 64
+F0 43 73 01 50 08 00 09 7F F7 ; DSP Right1 On
+F0 43 73 01 50 08 01 01 00 F7 ; Right2 Off
+F0 43 73 01 50 04 00 00 7F F7 ; Harmony Echo On
+F0 43 73 01 50 04 01 00 02 02 00 F7 ; Type Full Chord
+F0 43 73 01 50 04 00 05 40 F7 ; Volume 64
+F0 43 73 01 50 04 00 03 01 F7 ; Assign Right2
+F0 43 73 01 50 04 00 03 00 F7 ; Chord Note Only Off
+F0 43 73 01 50 04 00 06 40 F7 ; Touch Limit 64
+F0 43 73 01 50 07 01 00 40 F7 ; MultiPad Volume 64
+F0 43 73 01 50 07 00 00 03 05 06 F7 ; MultiPad Nummer 05 06
+[end list]

@@ -1,0 +1,13 @@
+REGEDIT
+;   Diese .REG-Datei kann von Ihrem SETUP-Programm verwendet werden.
+;   Falls kein SETUP-Programm verfügbar ist, werden die unten stehenden Einträge
+;   automatisch in InitInstance registriert, mit einem Aufruf an 
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\Psrmidi.Application = Psrmidi Application
+HKEY_CLASSES_ROOT\Psrmidi.Application\CLSID = {F24E2680-C3E6-11D5-9348-0080AD7896CF}
+
+HKEY_CLASSES_ROOT\CLSID\{F24E2680-C3E6-11D5-9348-0080AD7896CF} = Psrmidi Application
+HKEY_CLASSES_ROOT\CLSID\{F24E2680-C3E6-11D5-9348-0080AD7896CF}\ProgId = Psrmidi.Application
+HKEY_CLASSES_ROOT\CLSID\{F24E2680-C3E6-11D5-9348-0080AD7896CF}\LocalServer32 = PSRMIDI.EXE
